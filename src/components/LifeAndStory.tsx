@@ -146,6 +146,33 @@ export function LifeAndStory({ onSelectResidence, onOpenPhotos }: LifeAndStoryPr
               </article>
             ))}
           </div>
+
+          {/* Transparent Program Rates & Eligibility */}
+          <div className="mt-10 bg-[#FAF7F2] border border-[#E4DDD1] rounded-2xl p-6 sm:p-8 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+            <div className="lg:col-span-7 space-y-2.5">
+              <p className="text-xs font-semibold tracking-wide text-[#5B7B6D]">
+                Transparent Program Rates
+              </p>
+              <h3 className="font-serif text-xl sm:text-2xl font-semibold text-[#24201E]">
+                $250 non-refundable entry fee upon arrival; $250/week rent ($175/week for Disability clients), due every Friday.
+              </h3>
+              <p className="text-sm sm:text-base italic text-[#2C4A3E] leading-relaxed">
+                &ldquo;Our priority is recovery; please discuss any financial difficulties with staff.&rdquo;
+              </p>
+            </div>
+
+            <div className="lg:col-span-5 lg:border-l lg:border-[#E4DDD1] lg:pl-8 space-y-2">
+              <p className="text-xs font-semibold tracking-wide text-[#B85D43]">
+                Residency Eligibility Policy
+              </p>
+              <p className="text-sm sm:text-base font-semibold text-[#24201E] leading-relaxed">
+                TLC Recovery House CANNOT ACCEPT SEX OFFENDERS.
+              </p>
+              <p className="text-xs sm:text-sm text-[#57514D] leading-relaxed">
+                Residency is open to adult women (Somerville) and men (TLC Josiah House, Hartselle) ages 18+ who are committed to a 100% substance-free 12-step recovery home.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
