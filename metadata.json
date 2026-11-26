@@ -1,0 +1,6 @@
+{
+  "name": "TLC Recovery House",
+  "description": "501(c)(3) nonprofit peer-led 12-step sober living network for women and men in Somerville and Hartselle, Alabama.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
